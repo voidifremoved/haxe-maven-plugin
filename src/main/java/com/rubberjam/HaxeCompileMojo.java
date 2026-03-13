@@ -34,7 +34,7 @@ public class HaxeCompileMojo extends AbstractMojo {
     @Parameter(defaultValue = "${project}", readonly = true, required = true)
     private MavenProject project;
 
-    @Parameter(defaultValue = "4.3.3", property = "haxeVersion")
+    @Parameter(defaultValue = "4.3.7", property = "haxeVersion")
     private String haxeVersion;
 
     @Parameter(defaultValue = "build.hxml", property = "hxmlFile")
